@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/nihao_with_pause.unity
+    path: Assets/Scenes/nihao.unity
     guid: 659c9ef9b69c8e00d8a591c74c28a9ac
   m_configObjects: {}
