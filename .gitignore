@@ -76,3 +76,13 @@ crashlytics-build.properties
 
 # vim swap files
 *.swp
+
+
+
+# calpoop custom
+#
+
+#Web GL
+/WebGL Builds/
+connectwebgl.zip
+webgl_sharing
