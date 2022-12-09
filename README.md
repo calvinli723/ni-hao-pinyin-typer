@@ -1,5 +1,7 @@
 # ni-hao-pinyin-typer
 
+https://calpoop.itch.io/ni-hao-pinyin-typer
+
 Itch.io description:
 
 Type (hanyu) pinyin to match the falling Chinese words on the screen!
