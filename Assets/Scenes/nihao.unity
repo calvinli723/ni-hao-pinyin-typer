@@ -5247,7 +5247,7 @@ TextMesh:
   m_FontSize: 100
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: f6a92b2a4704cdc41a634b3272280201, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4281521881
@@ -5270,7 +5270,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: f6a92b2a4704cdc41a634b3272280201, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5320,16 +5320,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345020865}
-  m_LocalRotation: {x: -0.1346292, y: -0.1577534, z: 0.09478324, w: 0.9736555}
-  m_LocalPosition: {x: 0, y: 0, z: -70.20922}
+  m_LocalRotation: {x: -0.15142305, y: -0.18793434, z: 0.04001985, w: 0.96961343}
+  m_LocalPosition: {x: 0, y: 0, z: -52.5}
   m_LocalScale: {x: 4.2578382, y: 3.5077806, z: 0.24900003}
   m_Children: []
   m_Father: {fileID: 576693775}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -13.43, y: -20.003, z: 13.499}
+  m_LocalEulerAnglesHint: {x: -16.177, y: -23.085, z: 8.052}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 75.89215, y: 295.7256}
+  m_AnchoredPosition: {x: 132.29999, y: 306.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &383498107
@@ -5634,7 +5634,7 @@ TextMesh:
   m_FontSize: 100
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: f6a92b2a4704cdc41a634b3272280201, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -5657,7 +5657,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: f6a92b2a4704cdc41a634b3272280201, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5686,16 +5686,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583755276}
-  m_LocalRotation: {x: -0.17544691, y: 0.20178741, z: -0.06108189, w: 0.96164924}
-  m_LocalPosition: {x: 0, y: 0, z: -27}
+  m_LocalRotation: {x: -0.17788346, y: 0.17111869, z: -0.035658456, w: 0.96840304}
+  m_LocalPosition: {x: 0, y: 0, z: -19.886984}
   m_LocalScale: {x: 2.774402, y: 2.4825222, z: 0.1}
   m_Children: []
   m_Father: {fileID: 576693775}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -18.227, y: 25.542, z: -11.434}
+  m_LocalEulerAnglesHint: {x: -19.41, y: 21.398, z: -7.919}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -205, y: -110}
+  m_AnchoredPosition: {x: -228.66995, y: -107.344055}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &583755280
@@ -6111,7 +6111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 805866481515582412, guid: 5ec95a0854efad2478c08e9d5a87e4be, type: 3}
   spawnPosition: {x: 0, y: 0}
-  numWords: 20
+  numWords: 10
 --- !u!4 &1183221876
 Transform:
   m_ObjectHideFlags: 0
@@ -6654,7 +6654,7 @@ TextMesh:
   m_FontSize: 100
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 2ac906c51008f4837a631e9af08dac9c, type: 3}
+  m_Font: {fileID: 12800000, guid: f6a92b2a4704cdc41a634b3272280201, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4293662174
@@ -6677,7 +6677,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2ac906c51008f4837a631e9af08dac9c, type: 3}
+  - {fileID: 2100000, guid: f6a92b2a4704cdc41a634b3272280201, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
