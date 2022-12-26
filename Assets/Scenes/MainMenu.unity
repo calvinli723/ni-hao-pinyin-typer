@@ -1042,8 +1042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee43cdf30d77b232c892b7401879fc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 805866481515582412, guid: 3220823f454e1f255b7cc0e049997459, type: 3}
-  spawnPosition: {x: 0, y: -4}
 --- !u!1 &1217654621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,6 +1791,10 @@ PrefabInstance:
     - target: {fileID: 805866481515582412, guid: 3220823f454e1f255b7cc0e049997459, type: 3}
       propertyPath: m_Name
       value: WordNoGravity
+      objectReference: {fileID: 0}
+    - target: {fileID: 805866481515582417, guid: 3220823f454e1f255b7cc0e049997459, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 805866481515582422, guid: 3220823f454e1f255b7cc0e049997459, type: 3}
       propertyPath: m_Pivot.x
