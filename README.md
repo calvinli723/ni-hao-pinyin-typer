@@ -1,5 +1,7 @@
 # ni-hao-pinyin-typer
 
+https://play.unity.com/mg/other/nihao_web
+
 https://calpoop.itch.io/ni-hao-pinyin-typer
 
 Itch.io description:
