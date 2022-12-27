@@ -5791,7 +5791,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalWords: 0
-  maxWordsPerRound: 100
   maxWordFeedCount: 10
   maxCompoundWordLength: 5
 --- !u!82 &583755281
@@ -6325,6 +6324,8 @@ MonoBehaviour:
   prefab: {fileID: 805866481515582412, guid: 5ec95a0854efad2478c08e9d5a87e4be, type: 3}
   spawnPosition: {x: 0, y: 0}
   numWords: 10
+  maxWordsPerRound: 20
+  mode: 0
 --- !u!4 &1183221876
 Transform:
   m_ObjectHideFlags: 0
