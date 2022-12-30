@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int maxWordsPerRound = 100;
     [SerializeField] private int mode;
+
+    public bool gameEnded = false;
     
     private WordFeed wordFeed;
     private UIManager uiManager;
@@ -61,6 +63,9 @@ public class GameManager : MonoBehaviour
     void endGame()
     {
         Debug.Log("Game has ended");
+        gameEnded = true;
+        Time.timeScale = 0;
+        uiManager.showFinalScore();
     }
 
     // Update is called once per frame

@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     GameObject[] pauseObjects;
+    ScoreManager scoreManager;
+    GameManager gameManager;
+
 
     // Start is called before the first frame update
     void Start()
@@ -13,12 +16,14 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 1;
         pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
         hidePaused();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        scoreManager = GameObject.Find("Score").GetComponent<ScoreManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !gameManager.gameEnded)
         {
             if (Time.timeScale == 1)
             {
@@ -45,6 +50,12 @@ public class UIManager : MonoBehaviour
             g.SetActive(false);
    }
 
+   public void showFinalScore()
+   {
+        GameObject finalScorePanel = GameObject.Find("FinalScore").transform.Find("Panel").gameObject;
+        finalScorePanel.SetActive(true);
+   }
+
    public void exitGame()
    {
         Application.Quit();
@@ -53,5 +64,11 @@ public class UIManager : MonoBehaviour
    public void Menu()
    {
         SceneManager.LoadScene("MainMenu");
+   }
+
+   public void PlayAgain()
+   {
+        Debug.Log("Reloading scene");
+        SceneManager.LoadScene("nihao");
    }
 }
