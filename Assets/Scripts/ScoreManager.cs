@@ -55,11 +55,19 @@ public class ScoreManager : MonoBehaviour
         GetComponent<Text>().text = "Score: " + score + ", " + "Words Matched: " + wordsMatched + ", " + "Words Failed: " + wordsFailed + ", " + "streak: " + streakCount + ", " + "Compound Words Found: " + compoundWordsMatched;
     }
 
+    int successPercent()
+    {
+        totalWords = wordsFailed + wordsMatched;
+        double proportion = (double) wordsMatched / totalWords;
+        return (int) (proportion * 100);
+    }
+
     public void showFinalScore(GameObject finalScorePanel)
     {
         string out_string = "";
         TMP_Text finalScoreText = finalScorePanel.transform.Find("FinalScoreText").gameObject.GetComponent<TMP_Text>();
         out_string += "Final Score: " + score + "\n";
+        out_string += "Success Rate: " + successPercent() + "%\n";
         out_string += "Words Matched: " + wordsMatched + "\n";
         out_string += "Words Failed: " + wordsFailed + "\n";
         out_string += "Compound words found: " + compoundWordsMatched + "\n";

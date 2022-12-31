@@ -6915,12 +6915,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Final Score: 0
 
+    Success Rate: 0%
+
     Words Matched: 0
 
-    Words Failed: 5
+    Words
+    Failed: 0
 
-    Compound
-    words found: 0
+    Compound words found: 0
 
     Max streak: 0
 
