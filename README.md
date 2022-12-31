@@ -4,6 +4,8 @@ https://play.unity.com/mg/other/nihao_web
 
 https://calpoop.itch.io/ni-hao-pinyin-typer
 
+This is a Unity (2020.3.17f1) project.
+
 Itch.io description:
 
 Type (hanyu) pinyin to match the falling Chinese words on the screen!
