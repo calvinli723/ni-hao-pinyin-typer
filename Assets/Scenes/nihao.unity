@@ -6537,7 +6537,7 @@ MonoBehaviour:
   prefab: {fileID: 805866481515582412, guid: 5ec95a0854efad2478c08e9d5a87e4be, type: 3}
   spawnPosition: {x: 0, y: 0}
   numWords: 6
-  maxWordsPerRound: 10
+  maxWordsPerRound: 100
   mode: 0
   gameEnded: 0
 --- !u!4 &1183221876

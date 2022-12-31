@@ -43,11 +43,14 @@ public class WordFeed : MonoBehaviour
         else if (wordComponents[2] == "N")
         {
             compoundWordQueue.Clear();
+            // check that word isnt initial empty word
             if (wordComponents[0] != "")
                 scoreManager.WordFail();
         }
         UpdateWordFeed();
-        totalWords += 1;
+        // check that word isnt initial empty word
+        if (wordComponents[0] != "")
+            totalWords += 1;
 
         gameManager.checkEndGame();
     }
