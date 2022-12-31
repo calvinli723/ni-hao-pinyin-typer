@@ -54,6 +54,7 @@ public class UIManager : MonoBehaviour
    {
         GameObject finalScorePanel = GameObject.Find("FinalScore").transform.Find("Panel").gameObject;
         finalScorePanel.SetActive(true);
+        scoreManager.showFinalScore(finalScorePanel);
    }
 
    public void exitGame()
