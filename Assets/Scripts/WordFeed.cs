@@ -9,10 +9,8 @@ public class WordFeed : MonoBehaviour
     private CompoundWordFileReader reader;
     private string lastWord = "";
     private ScoreManager scoreManager;
+    private GameManager gameManager;
     public int totalWords = 0;
-
-    [SerializeField]
-    private int maxWordsPerRound = 100;
 
     [SerializeField]
     private int maxWordFeedCount = 5;
@@ -26,6 +24,7 @@ public class WordFeed : MonoBehaviour
         compoundWordQueue= new LinkedList<string>();
         reader = GameObject.Find("CompoundWordFileReader").GetComponent<CompoundWordFileReader>();
         scoreManager= GameObject.Find("Score").GetComponent<ScoreManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     public void AddWord(string word)
@@ -44,11 +43,16 @@ public class WordFeed : MonoBehaviour
         else if (wordComponents[2] == "N")
         {
             compoundWordQueue.Clear();
+            // check that word isnt initial empty word
             if (wordComponents[0] != "")
                 scoreManager.WordFail();
         }
-        totalWords += 1;
         UpdateWordFeed();
+        // check that word isnt initial empty word
+        if (wordComponents[0] != "")
+            totalWords += 1;
+
+        gameManager.checkEndGame();
     }
 
     // Show last <maxWordFeedCount> number of words

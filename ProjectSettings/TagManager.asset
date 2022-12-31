@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Text
   - ShowOnPause
+  - FinalScore
   layers:
   - Default
   - TransparentFX
